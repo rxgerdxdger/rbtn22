@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  rbtn22:
+    image: rbtn22
+    build:
+      context: .
+      dockerfile: ./Dockerfile
